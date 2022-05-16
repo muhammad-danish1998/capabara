@@ -1,17 +1,15 @@
-.footerLeft {
-    
-}
+
 
 .footerRight {
    
 }
 
 .logoleft {
-    margin: 50px 40px;
+    margin: 50px 0px;
 }
 
 .footerText {
-    margin-left: 50px;
+    /* margin-left: 50px; */
     font-size: 18px;
     font-weight: 500;
     line-height: 22px;
@@ -49,7 +47,25 @@ ul li {
     font-weight: 600;
     margin-bottom: 35px;
 
-
-
-
 }
+/* @media only screen and (max-width: 770px) {
+    .logoleft {
+        height: 100px;
+        margin-top: 20px;
+    }
+    .footerRight {
+        height: 100px;
+        margin-bottom: 20px;
+    }
+} */
+/* @media only screen and (max-width: 375px) {
+    .logoleft {
+        height: 80px;
+        margin-top: 20px;
+    }
+    .footerRight {
+        height: 80px;
+        width: 70px;
+        margin-bottom: 20px;
+    }
+} */

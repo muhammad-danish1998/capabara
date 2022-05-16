@@ -7,11 +7,11 @@ import logoright from '.././assests/images/logoright.png';
 
 const Footer = () => {
     return (
-        <div>
+        <div style = {{backgroundColor:"white"}}>
 
-            <Container>
+                <Container>
                 <Row style={{backgroundColor:"#fff"}}>
-                    <Col xs={12} sm={12} md={4} lg={4} className="footerLeft">
+                    <Col xs={12} sm={12} md={4} lg={4} className="footerLeft" >
                         {/* <p className='poweredBy'>Powered by</p> */}
                         <img src={logoleft} alt="logoleft" className='logoleft' />
                         <img src={logoright} alt="logoright" className="logoright" />
@@ -21,7 +21,7 @@ const Footer = () => {
                     </Col>
                     <Col xs={3} sm={3} md={2} lg={2} className="footerRight">
                         <ul className='footerList'>
-                            <li className='footerlistHeading'>CAPABARA </li>
+                            <li className='footerlistHeading'>About Us </li>
                             <li>Content </li>
                             <li>Content </li>
                             <li>Content </li>
@@ -33,7 +33,7 @@ const Footer = () => {
                     </Col>
                     <Col xs={3} sm={3} md={2} lg={2} className="footerRight">
                         <ul className='footerList'>
-                            <li className='footerlistHeading'>CAPABARA </li>
+                            <li className='footerlistHeading'>Features </li>
                             <li>Content </li>
                             <li>Content </li>
                             <li>Content </li>
@@ -45,7 +45,7 @@ const Footer = () => {
                     </Col>
                     <Col xs={3} sm={3} md={2} lg={2} className="footerRight">
                         <ul className='footerList'>
-                            <li className='footerlistHeading'>CAPABARA </li>
+                            <li className='footerlistHeading'>Templates </li>
                             <li>Content </li>
                             <li>Content </li>
                             <li>Content </li>
@@ -55,9 +55,9 @@ const Footer = () => {
 
                         </ul>
                     </Col>
-                    <Col xs={3} sm={3} md={2} lg={2} className="footerRight">
+                    <Col xs={2} sm={2} md={2} lg={2} className="footerRight">
                         <ul className='footerList'>
-                            <li className='footerlistHeading'>CAPABARA </li>
+                            <li className='footerlistHeading'>Pricing </li>
                             <li>Content </li>
                             <li>Content </li>
                             <li>Content </li>
@@ -69,7 +69,8 @@ const Footer = () => {
                     </Col>
 
                 </Row>
-            </Container>
+                </Container>
+        
         </div>
     )
 }

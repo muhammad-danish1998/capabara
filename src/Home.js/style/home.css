@@ -8,49 +8,37 @@
 }
 
 /* ==================== header ==================  */
-.leftHeader {
-    /* border: 2px solid red; */
-    /* background-color: white; */
-}
-
-.RightHeader {
-    /* border: 2px solid red; */
-
-}
-
-.RightHeader img {
-    max-width: 410px;
-    /* margin-top: -20px !important; */
-    text-align: center;
-    display: block;
-    margin: 0px auto;
-}
-
-.headertopmain {
+.headerContentArea{
     display: flex;
     align-items: center;
     justify-content: center;
-    /* height: 80vh; */
+    flex-direction: column;
+    height: 50vh;
+}
+.Action1{
+    background-color: #f7910b !important;
+    color: white;
+    margin-right: 18px;
+    width: 127px;
+    
+}
+.Action2{
+    width: 127px;
+}
+.Action2:hover{
+    background-color: #f7910b !important;
+}
+.headerHeading{
+    text-transform: capitalize;
+font-size: 24px;
+font-weight: 700;
+
+text-align: center;
+
 }
 
-.callAction {
 
-    /* width: 220px; */
-    background: #C4C4C4;
-    border-radius: 2px;
-    font-size: 20px;
-    font-weight: 500;
-    color: black;
-    padding: 5px 50px;
 
-}
-
-.callAction2 {
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 500;
-    color: black;
-}
 
 /* ================== Section two ==============  */
 .sectionTwoMain {
@@ -60,25 +48,31 @@
 }
 
 .sectionTwoLeft img {
-    width: 500px;
-    height: 430px;
+    width: 200px;
+    height: 200px;
+    
 }
 
 .sectionTwoBody {
     display: flex;
     align-items: center;
     justify-content: center;
+    
+    margin: 106px 0px;
 }
 
 .LearnMore {
-    background: #C4C4C4;
+    background-color: #f7910b !important;
     border-radius: 2px;
     font-size: 20px;
     font-weight: 500;
-    color: black;
+    color: white;
     padding: 5px 30px;
 }
-
+.LearnMore:hover{
+    background-color: white !important;
+    color: #000000;
+}
 .sectionTwoHeading {
     font-size: 38px;
     font-weight: 600;

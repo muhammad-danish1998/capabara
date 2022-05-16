@@ -5,7 +5,7 @@ import "./style/home.css"
 
 const Home = () => {
   return (
-    <div className="homemain container"  >
+    <div className="homemain "  >
       <Header style={{zIndex:"9"}} />
       <SectionTwo />
     </div>
