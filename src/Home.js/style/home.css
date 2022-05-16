@@ -1,0 +1,93 @@
+.homemain {
+
+    /* border: 2px solid red; */
+    margin-top: 6rem;
+    background-color: #E5E5E5;
+
+
+}
+
+/* ==================== header ==================  */
+.leftHeader {
+    /* border: 2px solid red; */
+    /* background-color: white; */
+}
+
+.RightHeader {
+    /* border: 2px solid red; */
+
+}
+
+.RightHeader img {
+    max-width: 410px;
+    /* margin-top: -20px !important; */
+    text-align: center;
+    display: block;
+    margin: 0px auto;
+}
+
+.headertopmain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 80vh; */
+}
+
+.callAction {
+
+    /* width: 220px; */
+    background: #C4C4C4;
+    border-radius: 2px;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    padding: 5px 50px;
+
+}
+
+.callAction2 {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+
+/* ================== Section two ==============  */
+.sectionTwoMain {
+    
+    background-color: white;
+    padding: 15px;
+}
+
+.sectionTwoLeft img {
+    width: 500px;
+    height: 430px;
+}
+
+.sectionTwoBody {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.LearnMore {
+    background: #C4C4C4;
+    border-radius: 2px;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    padding: 5px 30px;
+}
+
+.sectionTwoHeading {
+    font-size: 38px;
+    font-weight: 600;
+    color: #000000;
+
+}
+.sectionTwoSubHeading{
+font-size: 28px !important;
+font-weight: 600;
+
+
+}
